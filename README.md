@@ -20,7 +20,9 @@
     - Garantizar que los datos tengan la forma correcta
 - API - Cripto Monedas
   - _https://www.cryptocompare.com/_
-  - \_Asset/Top List/
+  - **{API KEY}** 
+  - Dentro de esa opción, nos envía a otra página, de lado izquierdo viene varias opciones, tenemos que buscar:
+  - _Asset/Top List/_
 - Zustand
   - **_npm i zustand_**
   - ## ¿Para qué se usa?
@@ -31,3 +33,5 @@
     - carrito de compras
     - modales
     - presupuestos, gastos, etc.
+- AXIOS - Consumo de _API'S_
+  - **_npm i axios_**

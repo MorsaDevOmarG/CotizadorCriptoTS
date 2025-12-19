@@ -6,6 +6,10 @@
 
 - React
 - Vite
+- CSS Modules
+- Google Fonts
+  - Outfit
 - Zod
 - API - Cripto Monedas
   - 
+-

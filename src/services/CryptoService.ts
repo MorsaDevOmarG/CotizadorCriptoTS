@@ -21,8 +21,12 @@ export async function getCryptos() {
   // const { data } = await axios(url);
   // const result = CryptoCurrencyResponseSchema.safeParse(data);
   // console.log(result.data.Data.LIST);
-};
+}
 
-export async function fetchCurrencyCryptoPrice(pair: Pair) {
-  console.log(pair);
-};
+export async function fetchCurrentCryptoPrice(pair: Pair) {
+  // const url = `https://min-api.cryptocompare.com/data/pricemultifull?fsyms=${pair.criptocurrency}&tsyms=${pair.currency}`;
+  const url = `https://min-api.cryptocompare.com/data/pricemultifull?fsyms=${pair.criptocurrency}&tsyms=${pair.currency}`;
+
+  const { data: { DISPLAY } } = await axios(url);
+  console.log(DISPLAY[pair.criptocurrency][pair.currency]);
+}

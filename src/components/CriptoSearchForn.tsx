@@ -79,8 +79,8 @@ export default function CriptoSearchForn() {
 
           {cryptocurrencies.map((crypto) => (
             <option
-              key={crypto.CoinInfo.FullName}
-              value={crypto.CoinInfo.FullName}
+              key={crypto.CoinInfo.Name}
+              value={crypto.CoinInfo.Name}
             >
               {crypto.CoinInfo.FullName}
             </option>

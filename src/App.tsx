@@ -4,7 +4,7 @@ function App() {
 
   return (
     <>
-      hola mundo
+      Cript App
     </>
   )
 }

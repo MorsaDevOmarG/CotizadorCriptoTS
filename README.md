@@ -6,9 +6,11 @@
 
 - React
 - Vite
-- CSS Modules
+- CSS
 - Google Fonts
   - Outfit
+- Sombras
+  - _https://getcssscan.com/css-box-shadow-examples_
 - Zod
 - API - Cripto Monedas
   - 

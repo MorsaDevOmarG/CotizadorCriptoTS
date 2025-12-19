@@ -12,6 +12,7 @@
 - Sombras
   - _https://getcssscan.com/css-box-shadow-examples_
 - Zod
+  - **_npm i zod_**
 - API - Cripto Monedas
   - 
 -

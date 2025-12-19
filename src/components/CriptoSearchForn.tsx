@@ -1,3 +1,4 @@
+import { currencies } from "../data";
 
 export default function CriptoSearchForn() {
   return (
@@ -15,10 +16,16 @@ export default function CriptoSearchForn() {
 
         <select name="criptocurrency" id="criptocurrency">
           <option value="">-- Seleccione --</option>
+
+          {currencies.map((currency) => (
+            <option key={currency.code} value={currency.code}>
+              {currency.name}
+            </option>
+          ))}
         </select>
       </div>
 
-      <input type="submit" value='Cotizar' />
+      <input type="submit" value="Cotizar" />
     </form>
   );
-};
+}

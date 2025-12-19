@@ -35,3 +35,6 @@
     - presupuestos, gastos, etc.
 - AXIOS - Consumo de _API'S_
   - **_npm i axios_**
+- SPINNERS
+  - Para mostrar un icono cuando esta cargando...
+  - _https://tobiasahlin.com/spinkit/_

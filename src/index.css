@@ -15,6 +15,7 @@ body {
   background-position: center center;
   min-height: 100vh;
   font-family: "Outfit", sans-serif;
+  font-size: 2rem;
 }
 
 .container {
@@ -40,6 +41,7 @@ body {
   margin-top: 5rem;
   background-color: var(--white);
   padding: 6rem 2rem;
+  /* https://getcssscan.com/css-box-shadow-examples - SOMBRAS */
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   border-radius: 1rem;
   -webkit-border-radius:1rem;
@@ -47,4 +49,47 @@ body {
   -ms-border-radius: 1rem;
   -o-border-radius: 1rem;
   -webkit-border-radius: 1rem;
+}
+
+.form,
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.form label {
+  color: var(--white);
+}
+
+.form select {
+  background-color: #ECEBEB;
+  border: none;
+  padding: 1rem;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  font-size: 1.8rem;
+}
+
+.form [type="submit"] {
+  background-color: var(--primary);
+  border: none;
+  color: var(--black);
+  padding: 1rem;
+  font-weight: 900;
+  cursor: pointer;
+  text-transform: uppercase;
+  margin-top: 2rem;
+  transition: background-color 300ms ease;
+  -webkit-transition: background-color 300ms ease;
+  -moz-transition: background-color 300ms ease;
+  -ms-transition: background-color 300ms ease;
+  -o-transition: background-color 300ms ease;
+}
+
+.form [type="submit"]:hover {
+  background-color: #0cb3b7;
 }
